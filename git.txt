@@ -5,7 +5,7 @@ to edit the recent commit message.
 
 
 
-to edit particula commit
+to edit particular commit message
 
 git rebase -i HEAD~#
 
