@@ -1,0 +1,43 @@
+To edit the commit messages
+
+git commit --amend
+to edit the recent commit message.
+
+
+
+to edit particula commit
+
+git rebase -i HEAD~#
+
+bisect 
+
+Tags
+-------
+
+git tag tagname
+
+git tag good
+
+Attachs to recent commit 
+
+$git tag
+displys the list of tags
+
+$git tag tagname commitid
+
+$git tag -a tagname -m 'tagmessage'
+
+
+
+$git remote add origin destination(remote path)
+
+$git push origin branchname(ex: master)
+
+
+$git push origin tagname tagname2  or
+
+$git push origin --tags
+
+$git tag -d tagname  for deleting tag
+
+$git push origin -d tagname for deleting the tag in remote repo
